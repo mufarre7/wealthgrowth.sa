@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,17 +14,13 @@ header, main, footer {
 }
 header {
     background-color: #071E33;
-    padding: 3rem 2rem;
+    padding: 2rem;
     text-align: center;
 }
-header h1 {
+header nav a {
     color: #00BFA6;
-    margin: 0.5rem 0;
-    font-size: 2rem;
-}
-header p {
-    font-size: 1.2rem;
-    color: #f0f0f0;
+    margin: 0 10px;
+    text-decoration: none;
 }
 main h2 {
     color: #00BFA6;
